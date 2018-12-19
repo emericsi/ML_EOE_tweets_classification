@@ -10,7 +10,7 @@ Project 2 repository for the ML course (EPFL, autumn 2018)
 - string (avalaible in the basic version of anaconda) 
 - wordcloud (for download and install write : conda install -c conda-forge wordcloud on the anaconda prompt or on the terminal. 
 
-## Organition of the github 
+## Main organitaion
 Our work is organised as follow :
 
 - report : this report explains our work and comments the results we obtained. 

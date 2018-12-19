@@ -15,7 +15,7 @@ Our work is organised as follow :
 
 - report : this report explains our work and comments the results we obtained. 
 - code folder :
-	- twitter-datasets :  contains all the datasets we used to create models
+	- twitter-datasets :  contains all the datasets we used to create models including the different word embeddings used for the two approaches based on their. 
 	- notebook data_analysis.ipynb : is a notebook which provides the data description and further analysis that the one performed in the repport.
 	- py_functions : folder with all the python functions we created for this project
 	- create_fast_datasets.py : run this script in order to create the datatest for the fasttext methods, make sur you deleted before the file trainfold1.txt, trainfold2.txt, trainfold3.txt, testfold1.txt, testfold2.txt, testfold3.txt, testFast.txt and Full.txt before. This files are in Fasttext\fT-datasets (see the section fastText for more information). 

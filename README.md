@@ -23,7 +23,7 @@ Our work is organised as follow :
 	- all the scripts and folder used in the glove based approach (see glove based approach for more information).
 	
 ## Glove based Approach
-All the files relative to this metho are in the folder code. Two differents embbedings were tested. 
+All the files relative to this approach are in the folder code. Two differents embbedings were tested. 
 
 
 For the embeddings we created. we have the following files and folders : 

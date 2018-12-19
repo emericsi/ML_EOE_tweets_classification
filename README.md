@@ -1,14 +1,20 @@
 # ML_EOE_tweets_classification
 Project 2 repository for the ML course (EPFL, autumn 2018)
+This Github present our wor for a crowdAI challenge (https://www.crowdai.org/challenges/epfl-ml-text-classification)
 
 ## Modules and packages 
- First of all we worked on anaconda, if you do not use this navigator you ca, download it at https://www.anaconda.com/download/, we also worked using the latest update of python 3. To run all of our codes you need the following packages. 
-
-- Pandas (avalaible in the basic version of anaconda)
+ First of all we worked on anaconda, if you do not use this navigator you ca, download it at https://www.anaconda.com/download/, 
+ 
+ we also worked using the latest update of python 3. To run all of our codes you need the following packages. 
+- numpy (avalaible in the basic version of anaconda)
+- pandas (avalaible in the basic version of anaconda)
+- matplotlib (avalaible in the basic version of anaconda)
+- csv (avalaible in the basic version of anaconda)
+- os (avalaible in the basic version of anaconda)
 - scikit-learn (avalaible in the basic version of anaconda) 
 - matplotlib (avalaible in the basic version of anaconda) 
 - string (avalaible in the basic version of anaconda) 
-- wordcloud (for download and install write : conda install -c conda-forge wordcloud on the anaconda prompt or on the terminal. 
+- wordcloud (for download and install write : conda install -c conda-forge wordcloud on the anaconda prompt or on the terminal). 
 
 ## Main organitaion
 Our work is organised as follow :

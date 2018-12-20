@@ -46,10 +46,13 @@ for the twitter embeddings method :
 All the results of the cross validation arre in the CVresult folder (pretrained for twitter trained for our embbedings).
 
 ## Fasttext 
-Due to encoding of some caracters this method can only be run on Linux.  
+Due to encoding of some caracters this method can only be run on Linux.
+
+The FastText  program can be installed by following the instructions found in https://github.com/facebookresearch/fastText.
+
 This folder contained all our work with fasttext, there are some scripts and folders for the method itself, and specific one we created.
 - grid_fasttext.py is the script to cross-validate the parameters of fastText.
 - Logistic_grid.py is the script to cross-validate the logistic regression fitted after the fasttext.
 - run.py simply the script to obtain the final submission for the crowdAI. 
 - fT-datasets is a folder which conatains all the datasets usefull for this methods. 
-- errors : folder with err1.npy to err5.npy corresponding to various gridsearch for grid_fasttext.py put together in grid_fastText.csv using error_inspection.py (err.npy is the result of the last grid-search). 
+- errors : folder with err1.npy to err5.npy corresponding to various gridsearch for grid_fasttext.py put together in grid_fastText.csv using error_inspection.py (err.npy is the result of the last grid-search).

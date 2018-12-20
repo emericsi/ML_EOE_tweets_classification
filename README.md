@@ -24,7 +24,7 @@ Our work is organised as follow :
 	- twitter-datasets :  contains all the datasets we used to create models including the different word embeddings used for the two approaches based on their. 
 	- notebook data_analysis.ipynb : is a notebook which provides the data description and further analysis that the one performed in the repport.
 	- py_functions : folder with all the python functions we created for this project.
-	- create_fast_datasets.py : run this script in order to create the datatest for the fasttext methods, make sur you deleted before the file trainfold1.txt, trainfold2.txt, trainfold3.txt, testfold1.txt, testfold2.txt, testfold3.txt, testFast.txt and Full.txt before. This files are in Fasttext\fT-datasets (see the section fastText for more information). 
+	- create_fast_datasets.py : run this script in order to create the datatest for the fasttext methods, make sur you deleted before the file trainfold1.txt, trainfold2.txt, trainfold3.txt, testfold1.txt, testfold2.txt, testfold3.txt, testFast.txt and Full.txt before. The newly created files are in Fasttext\fT-datasets (see the section fastText for more information). 
 	- Fasttext folder with all the script and results about fasttext method. 
 	- all the scripts and folder used in the glove based approach (see glove based approach for more information).
 	
@@ -55,4 +55,4 @@ This folder contained all our work with fasttext, there are some scripts and fol
 - Logistic_grid.py is the script to cross-validate the logistic regression fitted after the fasttext.
 - run.py simply the script to obtain the final submission for the crowdAI. 
 - fT-datasets is a folder which conatains all the datasets usefull for this methods. 
-- errors : folder with err1.npy to err5.npy corresponding to various gridsearch for grid_fasttext.py put together in grid_fastText.csv using error_inspection.py (err.npy is the result of the last grid-search).
+- errors : folder with err1.npy to err6.npy corresponding to various grid-search results. The file err6.npy contains the largest and most relevant grid-search and was converted to grid_fasttext.csv using error_inspection.py (err.npy is the result of the last grid-search, uploaded each time grid_fasttext.py is run).
